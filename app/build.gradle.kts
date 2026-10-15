@@ -143,6 +143,7 @@ androidComponents {
 }
 
 dependencies {
+	implementation("org.luckypray:dexkit:2.3.0")
 	// Compose / Material 3 - pinned explicitly (no BOM; see gradle/libs.versions.toml)
 	implementation(libs.compose.ui)
 	implementation(libs.compose.foundation)
